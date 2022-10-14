@@ -19,6 +19,7 @@ a{
 }
 body{
   margin: auto;
+  font-family: 'Barlow', sans-serif;
 }
 .container{
   width: 1285px;
