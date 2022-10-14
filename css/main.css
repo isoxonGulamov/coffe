@@ -20,3 +20,30 @@ a{
 body{
   margin: auto;
 }
+.container{
+  width: 1285px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+a:hover{
+  color: blue;
+  background-color: crimson;
+}
+.site-header-box{
+  display: flex;
+  justify-content: space-between;
+}
+.header-site-list{
+  display: flex;
+}
+.header-site-item + .header-site-item{
+  margin-left: 33px;
+}
+.header-site-link{
+  font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: #83888F;
+}
